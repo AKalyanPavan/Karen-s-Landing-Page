@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Inter, sans-serif',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes slideIn {
+  from {left: -260px;}
+  to {left: 0px;}
+}
+
+@keyframes slideOut {
+  from {left: 0px;}
+  to {left: -260px;}
+}
