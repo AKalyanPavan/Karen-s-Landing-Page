@@ -126,7 +126,7 @@ function Homepage() {
 						</div>
 						<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
 							<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff] max-[700px]:mx-auto block">
-								Contact Us
+								Book an appointment
 							</button>
 						</a>
 					</div>
@@ -231,11 +231,21 @@ function Homepage() {
 				{/*fold 4*/}
 				<div id="casestudies" className="">
 					<div className="flex items-start my-[70px]">
-						<div className="">
+						<div className="my-auto">
 							<div className="text-[32px] text-[#1B1642] font-bold">Karen’s Success Stories</div>
-							<div className="text-[16px] text-[#677788] mt-[20px]">Karen's dedication to law and service has made a significant impact on the community and beyond. With a strong foundation in legal expertise and a passion for helping others, Karen continues to make a difference through her notary services.</div>
+							<div className="text-[16px] text-[#677788] mt-[20px]">
+								Karen's dedication to law and service has made a significant impact on the community and beyond. With a strong foundation in legal expertise and a passion for helping others, Karen continues to make a difference through her notary services.
+								<br />
+								<div className="max-[1100px]:hidden">
+									<br />
+									Karen's legal career began with a strong passion for law, leading her to earn an Honors Diploma in Paralegal Studies and become a licensed Paralegal in Ontario. She built a successful practice and worked with one of the province's largest Paralegal firms, handling various legal claims.
+									<br />
+								</div>
+								<br />
+								In 2021, Karen was appointed as a Notary Public by the Attorney General of Ontario and opened her own office in Wortley Village, London, ON. Her notarial practice, accredited by the Better Business Bureau with an A rating, is dedicated to providing top-notch services.
+							</div>
 						</div>
-						<img className="w-[50%] h-[25%] rounded-[20px] ml-[40px] max-[1000px]:hidden" src={success} alt="Success Stories"/>
+						<img className="w-[50%] rounded-[20px] ml-[40px] max-[1000px]:hidden my-auto" src={success} alt="Success Stories"/>
 					</div>
 					<div className="grid min-[700px]:grid-cols-2 grid-cols-1 mt-[50px] gap-[30px] text-center">
 						<div className="border-solid border-[#eaeaea] border-[1px] p-[20px] rounded-[10px] shadow-[1px_1px_3px_1px_rgba(0,0,0,0.05)]">
