@@ -105,7 +105,7 @@ function Homepage() {
 						</svg>
 					</div> */}
 
-					<div className="flex items-center text-[16px] font-medium justify-center">
+					<div className="flex max-[500px]:hidden items-center text-[16px] font-medium justify-center">
 						{/* <div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#home')}>Home</div>
 						<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
 						<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
